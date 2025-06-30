@@ -1,7 +1,6 @@
 # eclosion-sprint
 
-This public sprint documents my process of becoming a fully autonomous ML/NLP Engineer — from infrastructure to symbolic understanding.
-#Eclosión Profesional – ML Sprint Público
+# Professional Emergence – Public ML Sprint
 
 This public sprint documents my process of becoming a fully autonomous ML/NLP Engineer — from infrastructure to symbolic understanding.
 
