@@ -10,7 +10,7 @@ Each project here targets a key capability: modular pipelines, embeddings, CI/CD
 | Project | Description | Type | Technologies | Repo |
 |--------|-------------|------|--------------|------|
 | `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | [Repo](https://github.com/naaas94/infra-starter-kit) |
-| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | TBD |
+| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | [Repo](https://github.com/naaas94/embedding-mapper) |
 | `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | TBD |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | TBD |
 | `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | TBD |
