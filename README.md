@@ -14,7 +14,7 @@ Each project here targets a key capability: modular pipelines, embeddings, CI/CD
 | `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | [Repo](https://github.com/naaas94/embedding-mapper) |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | TBD |
 | `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | TBD |
-| `meaning-topology-demo` | Entry point to my portfolio | Semantic Cartography | NLP | [Repo]((https://github.com/naaas94/meaning-topology-demo)) |
+| `meaning-topology-demo` | Entry point to my portfolio | Semantic Cartography | NLP | [Repo](https://github.com/naaas94/meaning-topology-demo) |
 | `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | TBD |
 
 
