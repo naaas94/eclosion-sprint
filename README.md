@@ -18,9 +18,9 @@ These projects are designed to demonstrate hands-on ML engineering and MLOps ski
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
-| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 En progreso | [Repo](https://github.com/naaas94/simple-model-api) |
-| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🔴 In queue | TBD |
-| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🔴 In queue | TBD |
+| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
+| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🔴 In Queue | TBD |
+| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🔴 In Queue | TBD |
 
 **These projects are being built and released first to provide clear, focused proof points of my ability to deliver practical ML solutions.**
 
@@ -45,9 +45,9 @@ Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanc
 ```
 
 **Legend:**
-- 🟢 **Completado** - Project finished and deployed
-- 🟡 **En progreso** - Currently being developed
-- 🔴 **In queue** - Planned, not yet started
+- 🟢 **Completed** - Project finished and deployed
+- 🟡 **In Progress** - Currently being developed
+- 🔴 **In Queue** - Planned, not yet started
 
 ---
 
@@ -57,14 +57,14 @@ Each project here targets a key capability: modular pipelines, embeddings, CI/CD
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
-| `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completado | [Repo](https://github.com/naaas94/infra-starter-kit) |
-| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | 🔴 In queue | TBD  |
-| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 En progreso | [Repo](https://github.com/naaas94/embedding-mapper) |
-| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In queue | TBD |
-| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In queue | TBD |
-| `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟢 Completado | [Repo](https://github.com/naaas94/meaning-topology-demo) |
-| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In queue | TBD |
-| `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In queue | TBD |
+| `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completed | [Repo](https://github.com/naaas94/infra-starter-kit) |
+| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | 🔴 In Queue | TBD  |
+| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 In Progress | [Repo](https://github.com/naaas94/embedding-mapper) |
+| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
+| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
+| `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟢 Completed | [Repo](https://github.com/naaas94/meaning-topology-demo) |
+| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In Queue | TBD |
+| `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In Queue | TBD |
 
 ---
 
