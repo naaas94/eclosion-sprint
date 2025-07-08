@@ -16,11 +16,11 @@ From linguist to fully autonomous ML/NLP Engineer. This sprint documents that tr
 
 These projects are designed to demonstrate hands-on ML engineering and MLOps skills, focusing on real-world, production-adjacent solutions. They are now the primary focus of eclosion-sprint v0.2.0:
 
-| Project | Description | Type | Technologies | Repo |
-|--------|-------------|------|--------------|------|
-| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | TBD |
-| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | TBD |
-| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | TBD |
+| Project | Description | Type | Technologies | Status | Repo |
+|--------|-------------|------|--------------|--------|------|
+| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 En progreso | [Repo](https://github.com/naaas94/simple-model-api) |
+| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🔴 In queue | TBD |
+| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🔴 In queue | TBD |
 
 **These projects are being built and released first to provide clear, focused proof points of my ability to deliver practical ML solutions.**
 
@@ -34,24 +34,41 @@ This sequencing ensures my portfolio demonstrates both practical engineering and
 
 ---
 
+## 📊 **Progress Timeline**
+
+```
+Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanced NLP
+     ↓                                      ↓                         ↓
+🟢 infra-starter-kit              🟡 simple-model-api         🔴 embedding-mapper
+🟢 meaning-topology-demo          🔴 model-training-pipeline  🔴 dl-symbolic-perception
+                                🔴 data-pipeline            🔴 AI-You (RAG Assistant)
+```
+
+**Legend:**
+- 🟢 **Completado** - Project finished and deployed
+- 🟡 **En progreso** - Currently being developed
+- 🔴 **In queue** - Planned, not yet started
+
+---
+
 ## 🗺️ **Project Map (Full Journey)**
 
 Each project here targets a key capability: modular pipelines, embeddings, CI/CD, symbolic perception, or communication clarity.
 
-| Project | Description | Type | Technologies | Repo |
-|--------|-------------|------|--------------|------|
-| `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | [Repo](https://github.com/naaas94/infra-starter-kit) |
-| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | TBD  |
-| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | [Repo](https://github.com/naaas94/embedding-mapper) |
-| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | TBD |
-| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | TBD |
-| `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | [Repo](https://github.com/naaas94/meaning-topology-demo) |
-| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | TBD |
-| `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | TBD |
+| Project | Description | Type | Technologies | Status | Repo |
+|--------|-------------|------|--------------|--------|------|
+| `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completado | [Repo](https://github.com/naaas94/infra-starter-kit) |
+| `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | 🔴 In queue | TBD  |
+| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 En progreso | [Repo](https://github.com/naaas94/embedding-mapper) |
+| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In queue | TBD |
+| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In queue | TBD |
+| `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟢 Completado | [Repo](https://github.com/naaas94/meaning-topology-demo) |
+| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In queue | TBD |
+| `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In queue | TBD |
 
 ---
 
-I’m sharing updates weekly on [LinkedIn](https://linkedin.com/in/alejandro-garay-338257243), both technical and reflective.
+I'm sharing updates weekly on [LinkedIn](https://linkedin.com/in/alejandro-garay-338257243), both technical and reflective.
 
 This repo is a **map of becoming**.
 A living index of work in motion, not a finished portfolio.
