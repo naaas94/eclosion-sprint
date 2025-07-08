@@ -6,15 +6,15 @@ tags: []
 
 # eclosion-sprint
 
-# Professional Emergence – Public ML Sprint
+# ML Engineer Portfolio with Linguistic Background
 
-From linguist to fully autonomous ML/NLP Engineer. This sprint documents that transition, from infrastructure to symbolic understanding.
+Professional portfolio demonstrating ML engineering skills, from infrastructure to production-ready solutions.
 
-## 🚩 **Strategic Pivot: Practical Projects First**
+## 🚀 **Core Projects: Production-Ready ML Solutions**
 
-**After feedback from industry leaders and mentors, I'm prioritizing a set of practical, right-sized projects to complement my larger learning journey.**
+**Focused on delivering practical, scalable ML engineering solutions that demonstrate real-world capabilities.**
 
-These projects are designed to demonstrate hands-on ML engineering and MLOps skills, focusing on real-world, production-adjacent solutions. They are now the primary focus of eclosion-sprint v0.2.0:
+These projects showcase hands-on ML engineering and MLOps skills, designed for production environments:
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
@@ -22,15 +22,15 @@ These projects are designed to demonstrate hands-on ML engineering and MLOps ski
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🔴 In Queue | TBD |
 | `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🔴 In Queue | TBD |
 
-**These projects are being built and released first to provide clear, focused proof points of my ability to deliver practical ML solutions.**
+**These projects demonstrate practical ML engineering skills with production-ready implementations.**
 
 ---
 
-## 🧭 **Long-Term Vision: Research & Symbolic Reasoning**
+## 🧭 **Advanced Projects: NLP & Symbolic Reasoning**
 
-The original eclosion-sprint roadmap (see below) remains active, but advanced/research projects (like `embedding-mapper`, `dl-symbolic-perception`, and the RAG-based `AI-You` assistant) will follow after these foundational projects are shipped.
+The roadmap includes advanced NLP and symbolic reasoning projects that leverage linguistic expertise for sophisticated ML applications.
 
-This sequencing ensures my portfolio demonstrates both practical engineering and my growth toward advanced NLP and symbolic reasoning.
+This progression ensures the portfolio demonstrates both foundational engineering skills and specialized NLP capabilities.
 
 ---
 
@@ -53,7 +53,7 @@ Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanc
 
 ## 🗺️ **Project Map (Full Journey)**
 
-Each project here targets a key capability: modular pipelines, embeddings, CI/CD, symbolic perception, or communication clarity.
+Each project targets specific ML engineering capabilities: modular pipelines, embeddings, CI/CD, symbolic perception, or communication clarity.
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
@@ -68,9 +68,8 @@ Each project here targets a key capability: modular pipelines, embeddings, CI/CD
 
 ---
 
-I'm sharing updates weekly on [LinkedIn](https://linkedin.com/in/alejandro-garay-338257243), both technical and reflective.
+I share technical updates and insights weekly on [LinkedIn](https://linkedin.com/in/alejandro-garay-338257243).
 
-This repo is a **map of becoming**.
-A living index of work in motion, not a finished portfolio.
+This portfolio represents a systematic approach to ML engineering, combining practical infrastructure skills with specialized NLP expertise.
 
 ---
