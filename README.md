@@ -18,6 +18,7 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
+| `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🔴 In Queue | TBD |
 | `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🔴 In Queue | TBD |
@@ -39,9 +40,10 @@ This progression ensures the portfolio demonstrates both foundational engineerin
 ```
 Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanced NLP
      ↓                                      ↓                         ↓
-🟢 infra-starter-kit              🟡 simple-model-api         🔴 embedding-mapper
-🟢 meaning-topology-demo          🔴 model-training-pipeline  🔴 dl-symbolic-perception
-                                🔴 data-pipeline            🔴 AI-You (RAG Assistant)
+🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
+🟢 meaning-topology-demo          🟡 simple-model-api           🔴 dl-symbolic-perception
+                                 🔴 model-training-pipeline     🔴 AI-You (RAG Assistant)
+                                 🔴 data-pipeline
 ```
 
 **Legend:**
@@ -58,6 +60,7 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
 | `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completed | [Repo](https://github.com/naaas94/infra-starter-kit) |
+| `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
 | `pcc-pipeline` | Privacy intent classifier with embeddings | ML Pipeline | BigQuery<br> Flyte<br> Scikit-learn<br> MiniLM | 🔴 In Queue | TBD  |
 | `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 In Progress | [Repo](https://github.com/naaas94/embedding-mapper) |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
