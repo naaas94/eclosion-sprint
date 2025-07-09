@@ -1,8 +1,3 @@
----
-noteId: "d68a5ba05b2311f09cdb81b7eb5edb57"
-tags: []
-
----
 
 # eclosion-sprint
 
