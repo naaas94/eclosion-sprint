@@ -46,8 +46,8 @@ Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanc
 🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
 🟡 mlops-template                 🟡 simple-model-api           🔴 dl-symbolic-perception
 🟡 model-training-pipeline        🟡 data-pipeline              🔴 AI-You (RAG Assistant)
-🟡 pytorch-core                   🟡 llm-powered-conv-generator
-                                 🟡 agentic-reviewer
+🔴 pytorch-core                   🟡 llm-powered-conv-generator
+                                  🟡 agentic-reviewer
 ```
 
 **Legend:**
