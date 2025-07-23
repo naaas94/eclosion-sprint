@@ -21,7 +21,7 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 | `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/model-training-pipeline) |
-| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
+| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
 | `llm-powered-conv-generator` | LLM-powered conversation generator, part of the main data pipeline | NLP | Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/llm-powered-conv-generator) |
 | `agentic-reviewer` | Semantic auditing for text classification predictions | NLP | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
@@ -73,7 +73,7 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In Queue | TBD |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/model-training-pipeline) |
-| `data-pipeline` | Simple ETL/data validation pipeline for a public dataset | Data Eng | Pandas<br>Great Expectations<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
+| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
 | `llm-powered-conv-generator` | LLM-powered conversation generator, part of the main data pipeline | NLP | Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/llm-powered-conv-generator) |
 | `agentic-reviewer` | Semantic auditing for text classification predictions | NLP | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
