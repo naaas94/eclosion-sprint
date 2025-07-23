@@ -44,11 +44,10 @@ This progression ensures the portfolio demonstrates both foundational engineerin
 Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanced NLP
      ↓                                      ↓                         ↓
 🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
-🟢 meaning-topology-demo          🟡 simple-model-api           🔴 dl-symbolic-perception
-                                  🟡 model-training-pipeline    🔴 AI-You (RAG Assistant)
-                                  🟡 data-pipeline
-                                  🟡 llm-powered-conv-generator
-                                  🟡 agentic-reviewer
+🟡 mlops-template                 🟡 simple-model-api           🔴 dl-symbolic-perception
+🟡 model-training-pipeline        🟡 data-pipeline              🔴 AI-You (RAG Assistant)
+🟡 pytorch-core                   🟡 llm-powered-conv-generator
+                                 🟡 agentic-reviewer
 ```
 
 **Legend:**
