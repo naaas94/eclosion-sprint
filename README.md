@@ -20,9 +20,8 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 |--------|-------------|------|--------------|--------|------|
 | `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
-| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/model-training-pipeline) |
-| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
-| `llm-powered-conv-generator` | LLM-powered conversation generator, part of the main data pipeline | ML Engineering | Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/llm-powered-conv-generator) |
+| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
+| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
 | `agentic-reviewer` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
@@ -44,9 +43,8 @@ This progression ensures the portfolio demonstrates both foundational engineerin
 Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanced NLP
      ↓                                      ↓                         ↓
 🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
-🟡 mlops-template                 🟡 simple-model-api           🔴 dl-symbolic-perception
-🟡 model-training-pipeline        🟡 data-pipeline              🔴 AI-You (RAG Assistant)
-🔴 pytorch-core                   🟡 llm-powered-conv-generator
+🟢 model-training-pipeline        🟡 simple-model-api           🔴 dl-symbolic-perception
+🔴 pytorch-core                   🟢 data-pipeline              🔴 AI-You (RAG Assistant)
                                   🟡 agentic-reviewer
 ```
 
@@ -72,9 +70,8 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In Queue | TBD |
 | `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In Queue | TBD |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
-| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟡 In Progress | [Repo](https://github.com/naaas94/model-training-pipeline) |
-| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟡 In Progress | [Repo](https://github.com/naaas94/data-pipeline) |
-| `llm-powered-conv-generator` | LLM-powered conversation generator, part of the main data pipeline | ML Engineering | Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/llm-powered-conv-generator) |
+| `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
+| `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
 | `agentic-reviewer` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
@@ -82,7 +79,8 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 
 ## **Current Focus**
 
-- **Complete the PCC Ecosystem**: Prioritize the completion of the `data-pipeline`, `llm-powered-conv-generator`, and `model-training-pipeline`.
+- **PCC Ecosystem Completed**: The core PCC ecosystem is now complete with `PCC`, `data-pipeline`, and `model-training-pipeline` all finished.
+- **Next Phase**: Focus on completing `agentic-reviewer` and finalizing `simple-model-api`.
 - **Release the Simple Model API**: Finalize and release the `simple-model-api`.
 
 ---
