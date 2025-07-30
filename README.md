@@ -4,7 +4,7 @@ tags: []
 
 ---
 
-# eclosion-sprint
+# public-sprint
 
 # ML Engineer Portfolio with Linguistic Background
 
