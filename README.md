@@ -22,7 +22,7 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
 | `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
-| `agentic-reviewer` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
+| `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
 **These projects demonstrate practical ML engineering skills with production-ready implementations.**
@@ -44,8 +44,8 @@ Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanc
      ↓                                      ↓                         ↓
 🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
 🟢 model-training-pipeline        🟡 simple-model-api           🔴 dl-symbolic-perception
-🔴 pytorch-core                   🟢 data-pipeline              🔴 AI-You (RAG Assistant)
-                                  🟡 agentic-reviewer
+🔴 pytorch-core                   🟢 data-pipeline
+                                  🟡 agentic-reviewer (RAG Assisted)
 ```
 
 **Legend:**
@@ -63,16 +63,15 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 |--------|-------------|------|--------------|--------|------|
 | `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completed | [Repo](https://github.com/naaas94/infra-starter-kit) |
 | `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
-| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 In Progress | [Repo](https://github.com/naaas94/embedding-mapper) |
-| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
-| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
 | `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟢 Completed | [Repo](https://github.com/naaas94/meaning-topology-demo) |
-| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In Queue | TBD |
-| `AI-You (RAG Assistant)` | Local, privacy-first RAG-based conversational assistant | RAG/NLP | FAISS<br>MiniLM<br>Mistral/Phi-3<br>Gradio | 🔴 In Queue | TBD |
-| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
 | `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
-| `agentic-reviewer` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
+| `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 In Progress | [Repo](https://github.com/naaas94/embedding-mapper) |
+| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
+| `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
+| `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
+| `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
+| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In Queue | TBD |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
 ---
@@ -91,7 +90,6 @@ These projects reflect personal interests and explorations in the field of symbo
 
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
-| `SNR` | Semantic Note Router for classifying personal notes | NLP | Python<br>FAISS<br>SentenceTransformers | 🟡 In Progress | [Repo](https://github.com/naaas94/SNR) |
 | `SNR QuickCapture` | Enhanced symbolic ingestion layer for structured note capture | NLP | Python<br>SQLite<br>FAISS | 🟡 In Progress | [Repo](https://github.com/naaas94/quick-capture-snr) |
 
 ---
