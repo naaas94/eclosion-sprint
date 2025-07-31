@@ -6,7 +6,7 @@ tags: []
 
 # public-sprint
 
-# ML Engineer Portfolio with Linguistic Background
+# ML Engineering Portfolio
 
 Professional portfolio demonstrating ML engineering skills, from infrastructure to production-ready solutions.
 
@@ -19,9 +19,9 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 | Project | Description | Type | Technologies | Status | Repo |
 |--------|-------------|------|--------------|--------|------|
 | `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
-| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
 | `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
+| `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
@@ -71,7 +71,7 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
 | `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
-| `public-portfolio-readme` | Entry point to my portfolio | Public Doc | Markdown<br> GitHub Pages | 🔴 In Queue | TBD |
+
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
 ---
