@@ -43,7 +43,7 @@ Phase 1: Infrastructure & Basics     Phase 2: ML Engineering     Phase 3: Advanc
      ↓                                      ↓                         ↓
 🟢 infra-starter-kit              🟢 PCC                        🔴 embedding-mapper
 🟢 model-training-pipeline        🟡 simple-model-api           🔴 dl-symbolic-perception
-🔴 pytorch-core                   🟢 data-pipeline
+                                  🟢 data-pipeline
                                   🟡 agentic-reviewer (RAG Assisted)
 ```
 
@@ -69,7 +69,7 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
 | `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
-| `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
+
 
 ---
 
