@@ -23,7 +23,6 @@ These projects showcase hands-on ML engineering and MLOps skills, designed for p
 | `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
 | `simple-model-api` | FastAPI service for serving a simple ML model, Dockerized, with CI/CD | ML Infra | FastAPI<br>Docker<br>GitHub Actions | 🟡 In Progress | [Repo](https://github.com/naaas94/simple-model-api) |
 | `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
-| `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
 **These projects demonstrate practical ML engineering skills with production-ready implementations.**
 
