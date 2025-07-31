@@ -63,7 +63,7 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 |--------|-------------|------|--------------|--------|------|
 | `infra-starter-kit` | Setup base: Docker, structure, ML tooling | Infra | Python<br> Docker<br> Make<br> Poetry | 🟢 Completed | [Repo](https://github.com/naaas94/infra-starter-kit) |
 | `PCC` | Production ML pipeline for privacy intent classification | ML Pipeline | BigQuery<br>Flyte<br>MiniLM<br>Docker | 🟢 Completed | [Repo](https://github.com/naaas94/PCC) |
-| `meaning-topology-demo` | NLP Exploration | NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟢 Completed | [Repo](https://github.com/naaas94/meaning-topology-demo) |
+
 | `model-training-pipeline` | Configurable training pipeline with MLflow versioning and basic deployment | MLOps | MLflow<br>scikit-learn<br>Python | 🟢 Completed | [Repo](https://github.com/naaas94/model-training-pipeline) |
 | `data-pipeline` | Enterprise-grade data pipeline for generating, validating, and curating training datasets for privacy intent classification | Data Eng | Apache Spark<br>Apache Beam<br>Ray<br>Kafka<br>BigQuery | 🟢 Completed | [Repo](https://github.com/naaas94/data-pipeline) |
 | `embedding-mapper` | Embedding exploration and visualization | Symbolic NLP | SentenceTransformers<br> UMAP<br> Plotly | 🟡 In Progress | [Repo](https://github.com/naaas94/embedding-mapper) |
@@ -71,7 +71,6 @@ Each project targets specific ML engineering capabilities: modular pipelines, em
 | `agentic-reviewer (RAG Assisted)` | Semantic auditing for text classification predictions | ML Engineering | FastAPI<br>Python<br>LLM | 🟡 In Progress | [Repo](https://github.com/naaas94/agentic-reviewer) |
 | `mlops-template` | Reusable DAG + logging + schema validation | MLOps | Flyte<br> Pydantic<br> Hydra<br> CI/CD | 🔴 In Queue | TBD |
 | `dl-symbolic-perception` | CLIP or CNN for multimodal understanding | Deep Learning | PyTorch<br> CLIP<br> torchvision | 🔴 In Queue | TBD |
-
 | `pytorch-core` | Core PyTorch utilities and models | Deep Learning | PyTorch | 🔴 In Queue | [Repo](https://github.com/naaas94/pytorch-core) |
 
 ---
